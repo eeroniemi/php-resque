@@ -1,9 +1,9 @@
 {
-	"name": "chrisboulton/php-resque",
+	"name": "eeroniemi/php-resque",
 	"type": "library",
 	"description": "Redis backed library for creating background jobs and processing them later. Based on resque for Ruby.",
 	"keywords": ["job", "background", "redis", "resque"],
-	"homepage": "http://www.github.com/chrisboulton/php-resque/",
+	"homepage": "http://www.github.com/eeroniemi/php-resque/",
 	"license": "MIT",
 	"authors": [
 		{
@@ -14,7 +14,7 @@
 	"repositories": [
 		{
 			"type": "vcs",
-			"url": "https://github.com/chrisboulton/credis"
+			"url": "https://github.com/eeroniemi/credis"
 		}
 	],
 	"require": {
