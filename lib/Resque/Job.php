@@ -60,7 +60,7 @@ class Resque_Job
 		$id = md5(uniqid('', true));
 		Resque::push($queue, array(
 			'class'	=> $class,
-			'args'	=> array($args),
+			'args'	=> $args,
 			'id'	=> $id,
 		));
 
@@ -144,7 +144,7 @@ class Resque_Job
 			return array();
 		}
 
-		return $this->payload['args'][0];
+		return $this->payload['args'];
 	}
 
 	/**
